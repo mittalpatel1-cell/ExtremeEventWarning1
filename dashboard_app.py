@@ -11,7 +11,7 @@ st.markdown("AI-Powered Early Warning System for Heatwaves & Droughts (7-day ahe
 # ── Load data ───────────────────────────────────────────────────────────────
 @st.cache_data
 def load_data():
-    base_dir = '/Users/mittal/ExtremeEventWarning'
+    base_dir = os.path.dirname(os.path.abspath(__file__))
     df_preds = pd.read_csv(os.path.join(base_dir, 'results', 'extreme_event_warnings.csv'))
     df_preds['DATE'] = pd.to_datetime(df_preds['DATE'])
     df_preds['Prediction_Date'] = pd.to_datetime(df_preds['Prediction_Date'])
