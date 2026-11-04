@@ -21,7 +21,7 @@ FEATURES = [
 models = {
     "heatwave": joblib.load("results/heatwave_random_forest_model.pkl"),
     "drought": joblib.load("results/drought_random_forest_model.pkl"),
-    "compound": joblib.load("results/compound_random_forest_model.pkl")
+    "compound": joblib.load("results/compound_random_forest_model_improved.pkl")
 }
 
 df = pd.read_csv(DATA_FILE)
@@ -52,9 +52,8 @@ def warning_level(probability):
 
 df["Heatwave_Warning"] = df["Heatwave_Probability"].apply(warning_level)
 df["Drought_Warning"] = df["Drought_Probability"].apply(warning_level)
-
 df["Compound_Warning"] = df["Compound_Probability"].apply(
-    lambda x: "COMPOUND EVENT WARNING" if x >= 0.20 else "LOW RISK"
+    lambda x: "COMPOUND EVENT WARNING" if x >= 0.45 else "LOW RISK"
 )
 
 output_columns = [
