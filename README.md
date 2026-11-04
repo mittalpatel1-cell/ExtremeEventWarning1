@@ -9,8 +9,6 @@ The project uses historical climate data from NASA POWER, IMD, and NOAA ONI. Mac
 - **Live Application**: [https://pbl-project.streamlit.app](https://pbl-project.streamlit.app)
 - **Streamlit Badge**: [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://pbl-project.streamlit.app)
 
-## Project Documentation
-- **Presentation Slides**: [docs/PBL_Presentation.pptx](docs/PBL_Presentation.pptx)
 
 ## Main Features
 - Climate data processing and integration
