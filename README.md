@@ -8,7 +8,7 @@ The project uses historical climate data from NASA POWER, IMD, and NOAA ONI. Mac
 ## Live Dashboard & Deployment
 - **Live Interactive Demo**: [Open Dashboard](https://ac2a3a8cbba81a53-106-222-211-40.serveousercontent.com)
 - **One-Click Deploy on Streamlit Cloud**:
-  [![Deploy to Streamlit Cloud](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=mittalpatel1-cell/ExtremeEventWarning&branch=main&mainModule=src/dashboard.py)
+  [![Deploy to Streamlit Cloud](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=mittalpatel1-cell/ExtremeEventWarning13&branch=main&mainModule=src/dashboard.py)
 
 ## Main Features
 - Climate data processing and integration
