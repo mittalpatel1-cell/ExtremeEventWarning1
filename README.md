@@ -6,7 +6,7 @@ An early warning system that analyzes climate data to monitor heatwaves, drought
 The project uses historical climate data from NASA POWER, IMD, and NOAA ONI. Machine learning models generate event predictions, while anomaly detection identifies unusual climate patterns.
 
 ## Live Dashboard & Deployment
-- **Live Interactive Demo**: [Open Dashboard](https://ac2a3a8cbba81a53-106-222-211-40.serveousercontent.com)
+- **Live Interactive Demo**: [Open Dashboard](https://ba7c4ecfc06d9258-106-222-211-40.serveousercontent.com)
 - **One-Click Deploy on Streamlit Cloud**:
   [![Deploy to Streamlit Cloud](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=mittalpatel1-cell/ExtremeEventWarning13&branch=main&mainModule=src/dashboard.py)
 
